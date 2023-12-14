@@ -1,0 +1,15 @@
+{
+  "name": "webpack-v5-stats-visualizer",
+  "version": "0.0.0",
+  "description": "Webpack v5 stats visualizer",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -d false -c-1 --port 8080 -P http://localhost:8080? .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
